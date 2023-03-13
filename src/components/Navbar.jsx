@@ -12,28 +12,26 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='container relative p-10'>
+    <nav className='container relative p-10 '>
       <div className='flex text-white justify-between items-center'>
         <div>
-          <Link href='/'>
-            <h1 className='text-3xl font-cormorant'>Gerícht</h1>
+          <Link href='/' className="">
+            <h1 className='text-4xl font-cormorant '>Gerícht</h1>
           </Link>
         </div>
 
-        <div className=' gap-10 text-lg items-center font-sans hidden sm:flex'>
+        <div className='max-lg:pl-10 gap-10 text-lg max-lg:text-xs items-center font-sans hidden md:flex'>
           <Link href='/'>Home</Link>
           <Link href='/about'>About</Link>
           <Link href='/menu'>Menu</Link>
           <Link href='/photos'>Photo Gallery</Link>
           <Link href='/contact'>Contact Us</Link>
-        </div>
-        <div className=' gap-4 text-lg hidden sm:flex'>
-          <h4>Log In / Registration</h4>
-          <h4 className=''>Book a table</h4>
+          <Link href='#'>Log In</Link>
+          <Link href='#'>Book a table</Link>
         </div>
 
-        <div onClick={handleNav} className='z-30 cursor-pointer sm:hidden'>
-          {nav ? <RxCross1 /> : <FaBars />}
+        <div onClick={handleNav} className='z-40 absolute top-12 right-5 cursor-pointer md:hidden '>
+          {nav ? <RxCross1 className='' /> : <FaBars />}
         </div>
       </div>
 
@@ -42,7 +40,7 @@ const Navbar = () => {
         onClick={handleNav}
         className={
           nav
-            ? "overflow-y-hidden md:hidden ease-in duration-300 absolute text-white left-0 top-0 w-full h-screen bg-gray-400/10 py-10 flex flex-col z-10"
+            ? "overflow-hidden md:hidden ease-in duration-300 absolute text-white left-0 top-0 w-screen h-screen bg-black/90 py-10 flex flex-col z-30"
             : "absolute top-0 h-screen left-[-100%] ease-in duration-500"
         }
       >
