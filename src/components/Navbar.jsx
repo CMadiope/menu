@@ -22,8 +22,8 @@ const Navbar = () => {
 
         <div className='max-lg:pl-10 gap-10 text-lg max-lg:text-xs items-center font-sans hidden md:flex'>
           <Link href='/'>Home</Link>
-          <Link href='/about'>About</Link>
-          <Link href='/menu'>Menu</Link>
+          <Link href='#about'>About</Link>
+          <Link href='#menu'>Menu</Link>
           <Link href='/photos'>Photo Gallery</Link>
           <Link href='/contact'>Contact Us</Link>
           <Link href='#'>Log In</Link>
@@ -46,8 +46,8 @@ const Navbar = () => {
       >
         <div className='w-full flex flex-col gap-8 text-center text-xl pt-20 '>
           <Link href='/'>Home</Link>
-          <Link href='/about'>About</Link>
-          <Link href='/menu'>Menu</Link>
+          <Link href='#about'>About</Link>
+          <Link href='#menu'>Menu</Link>
           <Link href='/photos'>Photo Gallery</Link>
           <Link href='/contact'>Contact Us</Link>
         </div>

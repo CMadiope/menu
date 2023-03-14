@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import fish from "../../public/fish.png";
 import rectangle from "../../public/Rectangle 20.png";
+import About from "./About";
+import Menu from "./Menu";
 
 const HomePage = () => {
   return (
@@ -35,6 +37,8 @@ const HomePage = () => {
           <Image src={fish} alt='/' objectFit='cover' className=' z-20' />
         </div>
       </div>
+      <About/>
+      <Menu/>
     </div>
   );
 };
