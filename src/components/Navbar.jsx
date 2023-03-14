@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='container relative p-10 '>
+    <nav className='p-10 relative w-full '>
       <div className='flex text-white justify-between items-center'>
         <div>
           <Link href='/' className="">
@@ -20,7 +20,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div className='max-lg:pl-10 gap-10 text-lg max-lg:text-xs items-center font-sans hidden md:flex'>
+        <div className=' gap-12 text-lg max-lg:text-xs items-center font-sans hidden md:flex'>
           <Link href='/'>Home</Link>
           <Link href='#about'>About</Link>
           <Link href='#menu'>Menu</Link>

@@ -8,7 +8,7 @@ import Menu from "./Menu";
 
 const HomePage = () => {
   return (
-    <div className='text-white p-10 container'>
+    <div className='text-white py-10 w-full'>
       <div className='flex flex-col md:flex-row gap-12 items-center'>
         <div className='pl-20 flex- flex-col max-w-[600px]'>
           <h3 className='font-cormorant pb-4'>Chase The New Flavour</h3>
@@ -37,8 +37,10 @@ const HomePage = () => {
           <Image src={fish} alt='/' objectFit='cover' className=' z-20' />
         </div>
       </div>
-      <About/>
-      <Menu/>
+      <section className="pb-10">
+        <About />
+      </section>
+      <Menu />
     </div>
   );
 };

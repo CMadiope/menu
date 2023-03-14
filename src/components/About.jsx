@@ -9,7 +9,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <div
-      className='text-white py-10 h-screen relative w-screen overflow-hidden'
+      className='text-white py-16 h-screen relative w-screen overflow-hidden'
       id='about'
     >
       <div className='absolute -z-10'>
