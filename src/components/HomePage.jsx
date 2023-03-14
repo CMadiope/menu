@@ -27,7 +27,7 @@ const HomePage = () => {
             Explore the Menu
           </Link>
         </div>
-        <div className='container relative max-md:ml-12 md:ml-0 max-w-[400px]'>
+        <div className=' relative max-md:ml-12 md:ml-0 max-w-[400px]'>
           <div className='w-40 absolute z-[-999] -top-[2%] -right-[2%]'>
             <Image src={rectangle} alt='/' className='w-[100%] h-[100%]' />
           </div>
@@ -37,7 +37,7 @@ const HomePage = () => {
           <Image src={fish} alt='/' objectFit='cover' className=' z-20' />
         </div>
       </div>
-      <section className="pb-10">
+      <section className="py-10">
         <About />
       </section>
       <Menu />

@@ -11,10 +11,12 @@ const About = () => {
     <div
       className='text-white py-16 h-screen relative w-screen overflow-hidden'
       id='about'
+      style={{
+        backgroundImage: `url(${BG.src})`,
+        height: "100%",
+        width: "100%",
+      }}
     >
-      <div className='absolute -z-10'>
-        <Image src={BG} alt='/' layout='cover'  className="max-md:hidden"/>
-      </div>
       <div className='absolute text-[150px] -z-10 md:text-[400px]  text-[#272727] flex- justify-center font-cormorant pl-[40%] max-md:hidden'>
         G
       </div>
