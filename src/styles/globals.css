@@ -10,3 +10,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+@layer base {
+  p {
+    @apply text-justify
+  }
+}

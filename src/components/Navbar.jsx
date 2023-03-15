@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className='p-10 relative w-full '>
       <div className='flex text-white justify-between items-center'>
         <div>
-          <Link href='/' className="">
+          <Link href='/' className=''>
             <h1 className='text-4xl font-cormorant '>Gerícht</h1>
           </Link>
         </div>
@@ -24,13 +24,16 @@ const Navbar = () => {
           <Link href='/'>Home</Link>
           <Link href='#about'>About</Link>
           <Link href='#menu'>Menu</Link>
-          <Link href='/photos'>Photo Gallery</Link>
+          <Link href='#photos'>Photo Gallery</Link>
           <Link href='/contact'>Contact Us</Link>
           <Link href='#'>Log In</Link>
           <Link href='#'>Book a table</Link>
         </div>
 
-        <div onClick={handleNav} className='z-40 absolute top-12 right-5 cursor-pointer md:hidden '>
+        <div
+          onClick={handleNav}
+          className='z-40 absolute top-12 right-5 cursor-pointer md:hidden '
+        >
           {nav ? <RxCross1 className='' /> : <FaBars />}
         </div>
       </div>
@@ -48,7 +51,7 @@ const Navbar = () => {
           <Link href='/'>Home</Link>
           <Link href='#about'>About</Link>
           <Link href='#menu'>Menu</Link>
-          <Link href='/photos'>Photo Gallery</Link>
+          <Link href='#photos'>Photo Gallery</Link>
           <Link href='/contact'>Contact Us</Link>
         </div>
         <div className='flex flex-col text-center p-t-6 gap-8 text-xl'>

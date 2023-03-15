@@ -5,6 +5,7 @@ import fish from "../../public/fish.png";
 import rectangle from "../../public/Rectangle 20.png";
 import About from "./About";
 import Menu from "./Menu";
+import Photos from "./Photos";
 
 const HomePage = () => {
   return (
@@ -41,6 +42,7 @@ const HomePage = () => {
         <About />
       </section>
       <Menu />
+      <Photos/>
     </div>
   );
 };
