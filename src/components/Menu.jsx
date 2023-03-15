@@ -213,11 +213,7 @@ const Menu = () => {
       </div>
       <div
         className=' py-10'
-        style={{
-          backgroundImage: `url(${BG.src})`,
-          height: "100%",
-          width: "100%",
-        }}
+        
       >
         <div className='px-6 py-10'>
           <Image src={bite} alt='/' />

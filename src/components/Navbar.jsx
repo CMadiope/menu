@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link href='#about'>About</Link>
           <Link href='#menu'>Menu</Link>
           <Link href='#photos'>Photo Gallery</Link>
-          <Link href='/contact'>Contact Us</Link>
+          <Link href='#contact'>Contact Us</Link>
           <Link href='#'>Log In</Link>
           <Link href='#'>Book a table</Link>
         </div>
@@ -52,11 +52,9 @@ const Navbar = () => {
           <Link href='#about'>About</Link>
           <Link href='#menu'>Menu</Link>
           <Link href='#photos'>Photo Gallery</Link>
-          <Link href='/contact'>Contact Us</Link>
-        </div>
-        <div className='flex flex-col text-center p-t-6 gap-8 text-xl'>
-          <p>Log In / Registration</p>
-          <p>Book a table</p>
+          <Link href='#contact'>Contact Us</Link>
+          <Link href='#'>Log In</Link>
+          <Link href='#'>Book a table</Link>
         </div>
       </div>
     </nav>

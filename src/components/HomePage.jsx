@@ -6,6 +6,7 @@ import rectangle from "../../public/Rectangle 20.png";
 import About from "./About";
 import Menu from "./Menu";
 import Photos from "./Photos";
+import Contact from "./Contact";
 
 const HomePage = () => {
   return (
@@ -43,6 +44,7 @@ const HomePage = () => {
       </section>
       <Menu />
       <Photos/>
+      <Contact/>
     </div>
   );
 };
