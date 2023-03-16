@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
         <div className=' gap-12 text-lg max-lg:text-xs items-center font-sans hidden md:flex'>
           <Link href='/'>Home</Link>
           <Link href='#about'>About</Link>
-          <Link href='#menu'>Menu</Link>
+          <Link href='menu'>Menu</Link>
           <Link href='#photos'>Photo Gallery</Link>
           <Link href='#contact'>Contact Us</Link>
           <Link href='#'>Log In</Link>
@@ -50,7 +51,7 @@ const Navbar = () => {
         <div className='w-full flex flex-col gap-8 text-center text-xl pt-20 '>
           <Link href='/'>Home</Link>
           <Link href='#about'>About</Link>
-          <Link href='#menu'>Menu</Link>
+          <Link href='menu'>Menu</Link>
           <Link href='#photos'>Photo Gallery</Link>
           <Link href='#contact'>Contact Us</Link>
           <Link href='#'>Log In</Link>
