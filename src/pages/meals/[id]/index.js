@@ -24,10 +24,10 @@ const MealDetail = () => {
     }
   }, [query.id]);
 
-  console.log(meal);
+  // console.log(meal);
 
   return (
-    <div className='text-white'>
+    <div className='text-white py-10'>
       <h1 className='text-3xl font-cormorant text-center pb-14'>
         Meal Details
       </h1>

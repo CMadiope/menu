@@ -14,6 +14,7 @@ module.exports = {
         sans: "Open Sans",
         cormorant: "Cormorant Upright",
       },
+      backgroundColor: ["active"],
     },
   },
   plugins: [],
