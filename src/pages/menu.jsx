@@ -30,7 +30,7 @@ const Menu = () => {
     } catch (error) {
       console.log(error);
     }
-  }, [input]);
+  }, [mealInputRef]);
 
   const Filter = async () => {
     const { data } = await menu.get(`filter.php?c=${filterTerm}`);
